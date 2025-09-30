@@ -10,3 +10,5 @@ packages/
 *.Publish.xml
 *.pubxml
 *.pubxml.user
+!packages/build/
+!packages/repositories.config
