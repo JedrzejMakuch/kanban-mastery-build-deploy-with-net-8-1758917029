@@ -19,7 +19,7 @@ jobs:
         uses: NuGet/setup-nuget@v2
 
       - name: Restore NuGet packages
-        run: nuget restore KanBan.sln
+        run: nuget restore KanBan.Web.sln
 
       - name: Build (Release)
-        run: msbuild KanBan.sln /t:Build /p:Configuration=Release /m
+        run: msbuild KanBan.Web.sln /t:Build /p:Configuration=Release /m
